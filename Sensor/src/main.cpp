@@ -31,7 +31,7 @@ void setup()
 	// Serial.setDebugOutput(true);
 	Serial.begin(74880);
 
-	PrintEx serialLog = Serial; // Wrap the Serial object in a PrintEx interface.
+	PrintEx serialLog = Serial; // Wrap the Serial object in a PrintEx interface
 	serialLog.println("Starting Setup");
 
 	dht.begin();
